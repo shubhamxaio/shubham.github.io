@@ -1,0 +1,49 @@
+/* your styles go here */
+
+.header-container{
+	width: 100%;
+	height: 700px;
+	border-left: none;
+	border-right: none;
+	position: relative;;
+	padding: 20px;
+
+}
+
+.video-container{
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+video{
+	position: absolute;
+	z-index: -1;
+	opacity: 0.78;
+	width: 100%
+}
+.white-text{
+	color: #fff;
+}
+
+.vdo-div{
+	z-index: 1;
+}
+
+.text-yellow{
+	color: yellow;
+}
+
+@media screen and (max-width: 840px) {
+    .mob-none {
+        display: none !important
+    }
+}
+
+@media screen and (min-width: 840px){
+	.desk-none{
+		display: none !important
+	}
+}
